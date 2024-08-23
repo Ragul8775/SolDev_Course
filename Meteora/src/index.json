@@ -1,0 +1,361 @@
+{
+    publicKey: PublicKey [PublicKey(Htnih5T64YYvwbkNDmeac2jbiAe1Gec7s5MCiUjTwUPw)] {
+      _bn: <BN: faff4e7749d409a1d8a012ee34a9be2da275d1bf79cdd98b1d5c030b3928b68e>
+    },
+    account: {
+      lpMint: PublicKey [PublicKey(CKJJDWaEdWpkvorW1a5UAUPNWmZxTMxJesAoCiyMqE5M)] {
+        _bn: <BN: a820917e3c15046f889a84aa48c437bf9ce027617b57f8704c6c736f4f2abf50>
+      },
+      tokenAMint: PublicKey [PublicKey(3dCCbYca3jSgRdDiMEeV5e3YKNzsZAp3ZVfzUsbb4be4)] {
+        _bn: <BN: 26fcf25fc960b2a6049c3ab7edd663abef236a90b095e08f3dc6c99f4361ea05>
+      },
+      tokenBMint: PublicKey [PublicKey(So11111111111111111111111111111111111111112)] {
+        _bn: <BN: 69b8857feab8184fb687f634618c035dac439dc1aeb3b5598a0f00000000001>
+      },
+      aVault: PublicKey [PublicKey(6rc8Cctd3vxRsF8o3dASSvAmmoKGUSSZ4fGX8fuGVoCQ)] {
+        _bn: <BN: 56ff9bf942176c8e8126d03b0f6247d5a1d7e6e434cb3e6f007d3cffd0044edd>
+      },
+      bVault: PublicKey [PublicKey(FERjPVNEa7Udq8CEv68h6tPL46Tq7ieE49HrE2wea3XT)] {
+        _bn: <BN: d3742176b89c5e14c96b748998421f38101e09e5c59331b168b625cd2715bb26>
+      },
+      aVaultLp: PublicKey [PublicKey(2MT9KQyi6GD79nK67R9Ep946KtgDM7A5Z9GaD8tN3TaY)] {
+        _bn: <BN: 1418dd11994e5cb71d11aeac1efc93feed159a54f64e35984e0fa3a61344a381>
+      },
+      bVaultLp: PublicKey [PublicKey(9BWEJmuohyBRy38RxmYiXvpVhzyZFJrfbdZpfBM1M9gL)] {
+        _bn: <BN: 798e5a72c88cf8b1df8fa8990073e8f3e6e9f00b88b1b120e7db034ec84d6a29>
+      },
+      aVaultLpBump: 255,
+      enabled: true,
+      protocolTokenAFee: PublicKey [PublicKey(9SvjoUkASbvvqZNtJV1qQYueJeX4xP8K6X3xBhtRXqJ9)] {
+        _bn: <BN: 7d81c6ff8409fc1597318e2aa5c81b66914c1d1eb4b201fe808848bd635361b2>
+      },
+      protocolTokenBFee: PublicKey [PublicKey(CDYfDS39fMyHSCAyEAosnCLojzYh37NDZffAwJGTPwtp)] {
+        _bn: <BN: a6a7529c213eacdaa383937d42234106f4acb57b29834bcac7c15802dae30705>
+      },
+      feeLastUpdatedAt: <BN: 4621f035ea59f448>,
+      padding0: [
+        196, 88, 202, 201, 118,  63,  75,
+         17,  5, 114,  85, 203, 238,  60,
+         78, 69, 173, 238, 195, 219, 139,
+         42, 27,  55
+      ],
+      fees: {
+        tradeFeeNumerator: <BN: 1f4>,
+        tradeFeeDenominator: <BN: 186a0>,
+        protocolTradeFeeNumerator: <BN: 4e20>,
+        protocolTradeFeeDenominator: <BN: 186a0>
+      },
+      poolType: { permissionless: {} },
+      stake: PublicKey [PublicKey(11111111111111111111111111111111)] {
+        _bn: <BN: 0>
+      },
+      totalLockedLp: <BN: 26a34ae0538>,
+      alphaVault: {
+        activationSlot: <BN: 1093767f>,
+        whitelistedVault: [PublicKey [PublicKey(RfXr1UQoJJwqtr1US5fnDRGRgSJwNVZXfavr2Jhd5Rn)]],
+        poolCreator: [PublicKey [PublicKey(5unTfT2kssBuNvHPY6LbJfJpLqEcdMxGYLWHwShaeTLi)]]
+      },
+      padding: { padding0: [Array], padding: [Array] },
+      curveType: { constantProduct: {} }
+    }
+  }
+  {
+    publicKey: PublicKey [PublicKey(8f3PQaiSMxps6oLcXFdv5u3TQETRCoiFLspqbYJmzVC1)] {
+      _bn: <BN: 71c093d3c6f96c1c2455e5c568ea4b710d0f13d7a73029bd9e8c5fe2fecbd076>
+    },
+    account: {
+      lpMint: PublicKey [PublicKey(8X8R2NSrAYsYbWjTQwjyswWVXnwE8dyd76GKKKaHBMkG)] {
+        _bn: <BN: 6fb99db377a3bcca609c4f58293ea8f2e00b0310d6c6177fa959a9b514569a4d>
+      },
+      tokenAMint: PublicKey [PublicKey(3dCCbYca3jSgRdDiMEeV5e3YKNzsZAp3ZVfzUsbb4be4)] {
+        _bn: <BN: 26fcf25fc960b2a6049c3ab7edd663abef236a90b095e08f3dc6c99f4361ea05>
+      },
+      tokenBMint: PublicKey [PublicKey(DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263)] {
+        _bn: <BN: bc07c56e60ad3d3f177382eac6548fba1fd32cfd90ca02b3e7cfa185fdce7398>
+      },
+      aVault: PublicKey [PublicKey(6rc8Cctd3vxRsF8o3dASSvAmmoKGUSSZ4fGX8fuGVoCQ)] {
+        _bn: <BN: 56ff9bf942176c8e8126d03b0f6247d5a1d7e6e434cb3e6f007d3cffd0044edd>
+      },
+      bVault: PublicKey [PublicKey(J9K67PxqqvCRW9tiDHB9bAisgNQSMLU1bvExtexyd7Ve)] {
+        _bn: <BN: feb7c6c9572311592ae628e7af996972cb9d0550719a6d70422e98d106fa0f95>
+      },
+      aVaultLp: PublicKey [PublicKey(FoXWRL42hBTPZ5jHTX5ohvrvoR87trkHX3tmjip413vY)] {
+        _bn: <BN: dbeed42dc86a93999e8229fce77d7fca0f85c0a9b3ec1a68edb30ad755bbb139>
+      },
+      bVaultLp: PublicKey [PublicKey(5715q6SGRCSXft8bxEAa5TFbu7LXmf5sQebQ4ufSxqAs)] {
+        _bn: <BN: 3cf853a2e9fdaebed9389d2c9fe676cb081790bdbcc45aae1e90e25aed39ef64>
+      },
+      aVaultLpBump: 249,
+      enabled: true,
+      protocolTokenAFee: PublicKey [PublicKey(BLW9AwPgHKrmcYM3SAbonsE1bW5rFXDApvnzotzMq7GU)] {
+        _bn: <BN: 9993dab604abf44ac32176165086a30b7a9b1cc0ca2758d1b9ce6d37f5871879>
+      },
+      protocolTokenBFee: PublicKey [PublicKey(8swkdBSK4Gjsbe5yiUGcWGsZj1DXbgydViRNFPwY6Wuf)] {
+        _bn: <BN: 750ec1e34159f0d28dfdfd987586680332b06b73bf2087542a7b688d9f7395fa>
+      },
+      feeLastUpdatedAt: <BN: 0>,
+      padding0: [
+        0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      fees: {
+        tradeFeeNumerator: <BN: fa>,
+        tradeFeeDenominator: <BN: 186a0>,
+        protocolTradeFeeNumerator: <BN: 0>,
+        protocolTradeFeeDenominator: <BN: 186a0>
+      },
+      poolType: { permissionless: {} },
+      stake: PublicKey [PublicKey(11111111111111111111111111111111)] {
+        _bn: <BN: 0>
+      },
+      totalLockedLp: <BN: 0>,
+      alphaVault: {
+        activationSlot: <BN: 0>,
+        whitelistedVault: [PublicKey [PublicKey(11111111111111111111111111111111)]],
+        poolCreator: [PublicKey [PublicKey(11111111111111111111111111111111)]]
+      },
+      padding: { padding0: [Array], padding: [Array] },
+      curveType: { constantProduct: {} }
+    }
+  }
+  {
+    publicKey: PublicKey [PublicKey(BJ4Mr2jodTjfTDfmG1avipXniBeZJ6Kzk54g4J6aDLDh)] {
+      _bn: <BN: 98f38aa0282d7e4f69c9232a02038e59d4949c3d3aa6bd0e19fdbbe1c4fb685c>
+    },
+    account: {
+      lpMint: PublicKey [PublicKey(FBeoyJ9ar2bxUXstP8N2jTdoHCraTifpmHsE54LdGH4D)] {
+        _bn: <BN: d2be2d41747c705141e89fa7c4f65a1b48a1153384fae40abea8f8a614e4fa32>
+      },
+      tokenAMint: PublicKey [PublicKey(3dCCbYca3jSgRdDiMEeV5e3YKNzsZAp3ZVfzUsbb4be4)] {
+        _bn: <BN: 26fcf25fc960b2a6049c3ab7edd663abef236a90b095e08f3dc6c99f4361ea05>
+      },
+      tokenBMint: PublicKey [PublicKey(27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4)] {
+        _bn: <BN: 1076469c1041d9e9b39fc2ede11333973b3e95732a4439207193a61cc4108d43>
+      },
+      aVault: PublicKey [PublicKey(6rc8Cctd3vxRsF8o3dASSvAmmoKGUSSZ4fGX8fuGVoCQ)] {
+        _bn: <BN: 56ff9bf942176c8e8126d03b0f6247d5a1d7e6e434cb3e6f007d3cffd0044edd>
+      },
+      bVault: PublicKey [PublicKey(64ybWyuKBW28jh4doYG4LBacxcmfYa8GnUVwooZGUM6t)] {
+        _bn: <BN: 4b4f2b5b75828b099adeae98cdc7895821660e768546350bcb1c1076764676cd>
+      },
+      aVaultLp: PublicKey [PublicKey(EQbhnYi2S8oT3ZemEc721ENMTFXESV3gs89kJvp55t2)] {
+        _bn: <BN: 36f3bb5580498cdfbc3b9a32d9591c32f3f17079ccfe41cd88d75392abf148f>
+      },
+      bVaultLp: PublicKey [PublicKey(UYCVW6fit9Bdk83Sg1bfCHMcuGCc7ureDohomp6cS3Y)] {
+        _bn: <BN: 70df52a8ccef808842ec03117ec1b21cb65a9718650711fb04841095115083f>
+      },
+      aVaultLpBump: 254,
+      enabled: true,
+      protocolTokenAFee: PublicKey [PublicKey(FK6CVyx4UmF5ytSDPhycNXdqUThMUcu8tWThtwL3kFHc)] {
+        _bn: <BN: d4a5f30118314b20d7090fe461f427c36ccc8b23bbbd60d33d8dc533ce656673>
+      },
+      protocolTokenBFee: PublicKey [PublicKey(5kCNYBDcwZx1jvXgtbcbudPDquLsKyZPTysV4Bb36hsj)] {
+        _bn: <BN: 467f9481e239491d17a3832638fefae7ac631ebd42a3c13081b241827f44b346>
+      },
+      feeLastUpdatedAt: <BN: 0>,
+      padding0: [
+        0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      fees: {
+        tradeFeeNumerator: <BN: fa>,
+        tradeFeeDenominator: <BN: 186a0>,
+        protocolTradeFeeNumerator: <BN: 0>,
+        protocolTradeFeeDenominator: <BN: 186a0>
+      },
+      poolType: { permissionless: {} },
+      stake: PublicKey [PublicKey(11111111111111111111111111111111)] {
+        _bn: <BN: 0>
+      },
+      totalLockedLp: <BN: 0>,
+      alphaVault: {
+        activationSlot: <BN: 0>,
+        whitelistedVault: [PublicKey [PublicKey(11111111111111111111111111111111)]],
+        poolCreator: [PublicKey [PublicKey(11111111111111111111111111111111)]]
+      },
+      padding: { padding0: [Array], padding: [Array] },
+      curveType: { constantProduct: {} }
+    }
+  }
+  {
+    publicKey: PublicKey [PublicKey(4dZSSA181YSLkLFcpSC1ibqVSte6oxAARFLGbT3kXKFa)] {
+      _bn: <BN: 35f0a5f39cf8805621d6c0a5f5bec191a7acb0a63e0e59f60c75b8833e9769f5>
+    },
+    account: {
+      lpMint: PublicKey [PublicKey(9arYrDtA9WqZQXRjZxcKVigqayuevW4AMUJ6CCifemgD)] {
+        _bn: <BN: 7f89affe3abd185b1d97b154f39e2ce72bb25060f48ac579599782818efa8d1a>
+      },
+      tokenAMint: PublicKey [PublicKey(3dCCbYca3jSgRdDiMEeV5e3YKNzsZAp3ZVfzUsbb4be4)] {
+        _bn: <BN: 26fcf25fc960b2a6049c3ab7edd663abef236a90b095e08f3dc6c99f4361ea05>
+      },
+      tokenBMint: PublicKey [PublicKey(JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN)] {
+        _bn: <BN: 479d9c7cc1035de7211f99eb48c09d70b2bdf5bdf9e2e56b8a1fbb5a2ea3327>
+      },
+      aVault: PublicKey [PublicKey(6rc8Cctd3vxRsF8o3dASSvAmmoKGUSSZ4fGX8fuGVoCQ)] {
+        _bn: <BN: 56ff9bf942176c8e8126d03b0f6247d5a1d7e6e434cb3e6f007d3cffd0044edd>
+      },
+      bVault: PublicKey [PublicKey(GJoeZkV6e2yCRxsrCFWQ2xn1oJ4zVmd4dbdMLniKfZjY)] {
+        _bn: <BN: e36eec1e166ae2f49740a0f31f33a7e951b8323eb10c85cb607f56af312ec693>
+      },
+      aVaultLp: PublicKey [PublicKey(A2R3GY2JD4VwTt4DFM8xYi1j5iVkDAis17sfegZescBL)] {
+        _bn: <BN: 8615f1b9fb3c5a95a8c118d80b3df0e0e5a5cdbe5cc60ca7d91f1e199d856ba3>
+      },
+      bVaultLp: PublicKey [PublicKey(4ng61K3UzLC3hCQrsPdYWfXmd9xT1Rm35jyP37jSYRfn)] {
+        _bn: <BN: 38466467ae081fbcade0ac74d2addde60aa5aa875db6dad0ededfb846f4d2a51>
+      },
+      aVaultLpBump: 254,
+      enabled: true,
+      protocolTokenAFee: PublicKey [PublicKey(4WivVWQ8TWoWvjjJ3G1WhxDkD5imxVYbGtABdfUBwX2i)] {
+        _bn: <BN: 34304e4f85244313f9bf7f4906289f234193599964cefff9de4ae33bfd5df90b>
+      },
+      protocolTokenBFee: PublicKey [PublicKey(6JAjtd5C2yzNFn8fTN9YQktJWQQPWXiJRsKstbcwQFXj)] {
+        _bn: <BN: 4eb052238cd3ad0e2cf8f3171fe43aeab281fc379e6dfd8fefcbd4d314d998c6>
+      },
+      feeLastUpdatedAt: <BN: 0>,
+      padding0: [
+        0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      fees: {
+        tradeFeeNumerator: <BN: fa>,
+        tradeFeeDenominator: <BN: 186a0>,
+        protocolTradeFeeNumerator: <BN: 0>,
+        protocolTradeFeeDenominator: <BN: 186a0>
+      },
+      poolType: { permissionless: {} },
+      stake: PublicKey [PublicKey(11111111111111111111111111111111)] {
+        _bn: <BN: 0>
+      },
+      totalLockedLp: <BN: 0>,
+      alphaVault: {
+        activationSlot: <BN: 0>,
+        whitelistedVault: [PublicKey [PublicKey(11111111111111111111111111111111)]],
+        poolCreator: [PublicKey [PublicKey(11111111111111111111111111111111)]]
+      },
+      padding: { padding0: [Array], padding: [Array] },
+      curveType: { constantProduct: {} }
+    }
+  }
+  {
+    publicKey: PublicKey [PublicKey(52eKZD3QH7GEk2YcN4JHzUsn8cs742eT7XzFJPLuywPn)] {
+      _bn: <BN: 3bda86ba61b3af73132ad25cc8efe49fd261fa2f9b8525295cad9f018de3e1a1>
+    },
+    account: {
+      lpMint: PublicKey [PublicKey(CyexJ86jkxMa1kvBvV6v9aWELFa8EVgZoSZxLoTHRxmn)] {
+        _bn: <BN: b1f3fed9739c2edbd7ae3e549e2e65907c1a3897414f32c3c8cfea3d37de05e1>
+      },
+      tokenAMint: PublicKey [PublicKey(WENWENvqqNya429ubCdR81ZmD69brwQaaBYY6p3LCpk)] {
+        _bn: <BN: 77cf63a56ff0afb124f6f68875a02adce4e320bbfcc1072e67a0a4ffa46c295>
+      },
+      tokenBMint: PublicKey [PublicKey(3dCCbYca3jSgRdDiMEeV5e3YKNzsZAp3ZVfzUsbb4be4)] {
+        _bn: <BN: 26fcf25fc960b2a6049c3ab7edd663abef236a90b095e08f3dc6c99f4361ea05>
+      },
+      aVault: PublicKey [PublicKey(C4679ZqtJhRqQP5fq1GVHdbxmG1eMeUu98kMMYDZGVyQ)] {
+        _bn: <BN: a43b126d86cdad7580b507a2167e0292ae9caee23d7dd83cf0c4b89b7f636c4f>
+      },
+      bVault: PublicKey [PublicKey(6rc8Cctd3vxRsF8o3dASSvAmmoKGUSSZ4fGX8fuGVoCQ)] {
+        _bn: <BN: 56ff9bf942176c8e8126d03b0f6247d5a1d7e6e434cb3e6f007d3cffd0044edd>
+      },
+      aVaultLp: PublicKey [PublicKey(8Ry1TbS8Eax3fXAXxhsCeGp8AYh767ZTrTPVkunpMRjD)] {
+        _bn: <BN: 6e671384a55facc9fe0f077473b227fc51c73c222102fb3422676511caca73a0>
+      },
+      bVaultLp: PublicKey [PublicKey(6ZRcGubBCkuWWW1HURf5UoZqpND3u6wsn1JtZJ1Hu25n)] {
+        _bn: <BN: 5298d856ecaa6c27c058f35153424f414f2cf7509c1d09f9e9621edde047de99>
+      },
+      aVaultLpBump: 253,
+      enabled: true,
+      protocolTokenAFee: PublicKey [PublicKey(DoDYQw6Xa32BHFSF782FVQtz4ya9VhavUHTTZSPdLCRb)] {
+        _bn: <BN: be2324233dcf0df911d51bbb2dd3e1d9388e9eae570880a1b97b6ccad0214b56>
+      },
+      protocolTokenBFee: PublicKey [PublicKey(BqfwHA56DQuttTg1DHX5XqX8GpRMmTVkGq4ypnLL3fUC)] {
+        _bn: <BN: a10cc5e2b68d9fb935737ac187815710c5022dd2973ab75fd6a92bf25ef635a1>
+      },
+      feeLastUpdatedAt: <BN: 0>,
+      padding0: [
+        0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      fees: {
+        tradeFeeNumerator: <BN: fa>,
+        tradeFeeDenominator: <BN: 186a0>,
+        protocolTradeFeeNumerator: <BN: 0>,
+        protocolTradeFeeDenominator: <BN: 186a0>
+      },
+      poolType: { permissionless: {} },
+      stake: PublicKey [PublicKey(11111111111111111111111111111111)] {
+        _bn: <BN: 0>
+      },
+      totalLockedLp: <BN: 0>,
+      alphaVault: {
+        activationSlot: <BN: 0>,
+        whitelistedVault: [PublicKey [PublicKey(11111111111111111111111111111111)]],
+        poolCreator: [PublicKey [PublicKey(11111111111111111111111111111111)]]
+      },
+      padding: { padding0: [Array], padding: [Array] },
+      curveType: { constantProduct: {} }
+    }
+  }
+  {
+    publicKey: PublicKey [PublicKey(aWbY2w8tThsgma3jmZdscqMBGF6x2rH4XeYZZtu822d)] {
+      _bn: <BN: 895a15f5932c8b159f796d0373b798e11fb0085a2ee7cf88cd2ab08688d03ba>
+    },
+    account: {
+      lpMint: PublicKey [PublicKey(DSKdKrL6QTpbMfGyhBLgtjnQgq3ujKY1MweUeoup72LK)] {
+        _bn: <BN: b8c8d2fc26d235be3b62305f4b698ed5e94373ca3047f3565accdec57d1851e4>
+      },
+      tokenAMint: PublicKey [PublicKey(DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263)] {
+        _bn: <BN: bc07c56e60ad3d3f177382eac6548fba1fd32cfd90ca02b3e7cfa185fdce7398>
+      },
+      tokenBMint: PublicKey [PublicKey(3dCCbYca3jSgRdDiMEeV5e3YKNzsZAp3ZVfzUsbb4be4)] {
+        _bn: <BN: 26fcf25fc960b2a6049c3ab7edd663abef236a90b095e08f3dc6c99f4361ea05>
+      },
+      aVault: PublicKey [PublicKey(J9K67PxqqvCRW9tiDHB9bAisgNQSMLU1bvExtexyd7Ve)] {
+        _bn: <BN: feb7c6c9572311592ae628e7af996972cb9d0550719a6d70422e98d106fa0f95>
+      },
+      bVault: PublicKey [PublicKey(6rc8Cctd3vxRsF8o3dASSvAmmoKGUSSZ4fGX8fuGVoCQ)] {
+        _bn: <BN: 56ff9bf942176c8e8126d03b0f6247d5a1d7e6e434cb3e6f007d3cffd0044edd>
+      },
+      aVaultLp: PublicKey [PublicKey(FWk8vzZFaRreUJFfusBmoeHizKrjWDnxn4rKeUvAevX5)] {
+        _bn: <BN: d7a23c3c91396b24e22dfe58ca67cd5941692ec93fb6edbd99ea901edbbc73fc>
+      },
+      bVaultLp: PublicKey [PublicKey(Ecf8PaJ5Tc2JSDeEcUmfHmjR3VzgQaDRMnYfVfP7qjjk)] {
+        _bn: <BN: ca4a5e808c183625db324ca9b087b14f1ed874f987bbf56ab03d4d0ba38b76b7>
+      },
+      aVaultLpBump: 255,
+      enabled: true,
+      protocolTokenAFee: PublicKey [PublicKey(EgimPpAHChp8Gq4n2X2WwiKN3PDbqBq61xhdFcu2sVo8)] {
+        _bn: <BN: cb54ce4ea25c30a85f2398b5f31fb13aa430c23bd101375f90619bcf6e923583>
+      },
+      protocolTokenBFee: PublicKey [PublicKey(6QhH6nxyyjobntXfGjLStyFfV2SBvFg6PbMoJ6zeBVyD)] {
+        _bn: <BN: 505c55d2efb1d328972e21329bebddcce0f11c8d47ad0fbfce20b530a65ba5ec>
+      },
+      feeLastUpdatedAt: <BN: 0>,
+      padding0: [
+        0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      fees: {
+        tradeFeeNumerator: <BN: fa0>,
+        tradeFeeDenominator: <BN: 186a0>,
+        protocolTradeFeeNumerator: <BN: 0>,
+        protocolTradeFeeDenominator: <BN: 186a0>
+      },
+      poolType: { permissionless: {} },
+      stake: PublicKey [PublicKey(11111111111111111111111111111111)] {
+        _bn: <BN: 0>
+      },
+      totalLockedLp: <BN: 0>,
+      alphaVault: {
+        activationSlot: <BN: 0>,
+        whitelistedVault: [PublicKey [PublicKey(11111111111111111111111111111111)]],
+        poolCreator: [PublicKey [PublicKey(11111111111111111111111111111111)]]
+      },
+      padding: { padding0: [Array], padding: [Array] },
+      curveType: { constantProduct: {} }
+    }
+  }
